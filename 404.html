@@ -1456,7 +1456,7 @@ dialog[open]:not(.code-dialog){animation:glass-dialog-in .32s cubic-bezier(.16,1
   const state = { catalog: null, user: null, restoring: true, own: [], ownLoaded: false, maps: [], mapsLoaded: false, mapsLoading: false, favorites: new Set(), codes: new Map(), codeVersions: new Map(), query: "", scope: "all", sort: "random", seed: Math.random(), visible: 60, detail: null, author: null, authorScripts: null, params: [], indexing: false, editor: null, permissions:null, permissionOwner:"", catalogError:"" };
   const languages = ["system", "en", "ru", "kk", "uk", "be", "pl", "sr", "hu", "zh-Hans", "ja", "pt-BR", "es", "it", "de", "nl"];
   const bundled = location.hostname === "patrick-9936.github.io";
-  const apiOrigin = bundled ? "https://script-library-nulls.tmtsttamt022.chatgpt.site" : "";
+  const apiOrigin = bundled ? "https://sl.3-107-57-112.sslip.io" : "";
   const publicOrigin = location.origin;
   const routePath = () => bundled && location.hash.startsWith("#/") ? location.hash.slice(1) : location.pathname;
   const routeHref = path => bundled ? "#" + path : path;
